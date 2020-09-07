@@ -1,0 +1,47 @@
+body{
+	width: 100%;
+	background-color: #fff;
+	margin:0;
+	color:#4d5767;
+	font-size: 14px;
+	line-height: 1.428px;
+
+}
+header{
+	position: relative;
+	left: 0;
+	height: 37px;
+	background-color: rgba(0,0,0,0.6);
+	border-bottom: 1px solid #4d5767;
+	margin-bottom: -40px;
+	z-index:200;
+}
+h1{
+	display: block;
+}
+h1 .tagline{
+	color: rgba(255,255,255,0.7);
+	position: absolute;
+	left: 50%
+	height:37px;
+	width:100%;
+	margin-left: -25px;
+	margin-top: 8px;
+	top: 10px;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	text-align: center;
+	z-index: -1;
+}
+.header-content{
+	width:70%;
+	text-align: right;
+	display: inline-block;
+
+}
+.user-photo{
+	height: 21.99px;
+	width: 21.99px;
+}

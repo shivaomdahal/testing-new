@@ -1,0 +1,369 @@
+body{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	background-color: #000;
+	font-size: 14px;
+}
+header{
+	padding: 0;
+	height: 80px;
+	width: 100%;
+	background-color:  rgba(0,0,0,0);
+	margin: 0;
+	z-index: 1;
+	position: fixed;
+}
+header .wrapper{
+	width: 100%
+	height: 100%;
+}
+header .wrapper .logo-container{
+	width: 70%;
+	height: 80px;
+	display: block;
+	text-align: center;
+	margin-left: 15%;
+	float: left;
+
+}
+
+header .logo-container img{
+	height: 60px;
+	margin-top:15px;
+}
+header .wrapper .login{
+	margin: 0;
+	padding:0;
+	width: 15%;
+	height: 60px;
+	display: inline-block;
+	text-align: center;
+	float: left;
+
+	font-size: 1em;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	color: #fff;
+	line-height: 30px;
+}
+content{
+	width: 100%
+	margin:0;
+	padding:0;
+}
+.experts-slider{
+	height: 90vh;
+	background-image:url('../img/expert-bg.jpg');
+	/*background: linear-gradient(to right, #000 0%, transparent 100%)*/
+	background-position: center;
+	width: 100%;
+	
+}
+/*.experts-slider:after{
+	height: 95vh;
+	background-image:url('../img/expert-bg.jpg');
+	background-position: center;
+	width: 100%;
+	
+}
+*/
+
+content section .experts-slider .wrapper{
+
+}
+.expert-content{
+	padding-top: 400px;
+	width: 100%;
+	height: 170px;
+}
+.expert-conten:after{
+	clear: both;
+}
+.expert-content .experts{
+	float: left;
+	display: inline-block;
+	margin-left: 2%;
+	width: 22%;
+	height: 170px;
+	border:1px solid #aaa;
+	background-position: all;
+	background-size: cover;
+}
+.expert-content .experts1{
+	background-image: url('../img/expert1.jpg');
+}
+.expert-content .experts2{
+	background-image: url('../img/expert2.jpg');
+}.expert-content .experts3{
+	background-image: url('../img/expert3.jpg');
+}.expert-content .experts4{
+	background-image: url('../img/expert4.jpg');
+}
+.expert-content .experts .info-expert{	
+	display: block;
+	height: 60px;
+	width: 100%;
+	color:#fff;
+	vertical-align: baseline;
+	position: absolute;
+	margin-bottom: 0;
+	margin-top: 110px;
+
+}
+.expert-content .experts .info-expert h1{
+	padding-left: 20px;
+	padding-top: 0;
+	margin-top: auto;
+	margin-bottom: 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	 
+}
+.expert-content .experts .info-expert h2{
+	padding-left: 20px;
+	padding-top: 0;
+	top: 0;
+	margin-top: 0;
+	font-size: 1em;
+	color: #34ffff;
+	text-transform: uppercase;
+	 
+}
+.browse-classes-down h1{
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color:#fff;
+	display:block;
+}
+content section .gift-of-masterclass{
+	margin:0;
+	padding:0;
+	height: 100vh;
+	width: 100%;
+}
+
+.wrapper .gift-of-masterclass-img img{
+	width:80%;
+	margin:5% 10%;
+	padding-bottom: 40px;
+	border: 1px solid #aaa;
+	
+}
+content section .now-available{
+	margin:0;
+	padding:0;
+	width: 100%;
+	clear: all;
+}
+content section .now-available .wrapper{
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+.now-available-classes h1{
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color:#fff;
+	display:block;
+	padding-bottom: 15px;
+}
+.wrapper .now-available-img-top {
+	background-image: url(../img/now-available-show.jpg);
+	width: 80%;
+	margin:10px 10%;
+	display: block;
+	height: 365px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+	border: 1px solid #fff;
+}
+
+.now-available-img-top .info-expert{
+	display: block;
+	margin: 0;
+	height: 60px;
+	width: 100%;
+	color:#fff;
+	padding-top: 300px;
+}
+
+.wrapper .now-available-img {
+	background-size: cover;
+	margin: auto;
+	width:80%;
+	display: block;
+	height: 305px;
+	
+}
+.now-available-img .info-expert{
+	display: block;
+	margin: 0;
+	height: 60px;
+	width: 100%;
+	color:#fff;
+	padding-top: 240px;
+}
+.now-available .info-expert h1{
+	padding-left: 20px;
+	padding-top: 0;
+	margin-top: auto;
+	margin-bottom: 0;
+	font-size: 1.6em;
+	color: #fff;
+	text-transform: uppercase;
+	 
+}
+.now-available .info-expert h2{
+	padding-left: 20px;
+	padding-top: 0;
+	top: 0;
+	margin-top: 0;
+	font-size: 1.1em;
+	color: #34ffff;
+	text-transform: uppercase;
+	 vertical-align: baseline;
+}
+.now-available-division{
+width: 84%;
+display: inline-block;
+margin: 10px 8%;
+}
+.wrapper .now-available-img {
+	width:47%;
+	margin:15px;
+	display: block;
+	float: left;
+	border: 1px solid #aaa;
+	
+}
+section.now-available:after{
+	clear: both;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+/*comming soon*/
+.comming-soon-classes h1{
+	text-align: center;
+	padding-top: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color:#fff;
+	display:block;
+	padding-bottom: 15px;
+}
+.wrapper .comming-soon-img {
+	background-size: cover;
+	margin: auto;
+	width:80%;
+	display: block;
+	height: 305px;
+	
+}
+.comming-soon-img .info-expert{
+	display: block;
+	margin: 0;
+	height: 60px;
+	width: 100%;
+	color:#fff;
+	padding-top: 240px;
+}
+.comming-soon .info-expert h1{
+	padding-left: 20px;
+	padding-top: 0;
+	margin-top: auto;
+	margin-bottom: 0;
+	font-size: 1.6em;
+	color: #fff;
+	text-transform: uppercase;
+	 
+}
+.comming-soon .info-expert h2{
+	padding-left: 20px;
+	padding-top: 0;
+	top: 0;
+	margin-top: 0;
+	font-size: 1.1em;
+	color: #34ffff;
+	text-transform: uppercase;
+	 vertical-align: baseline;
+}
+.comming-soon-division{
+width: 84%;
+display: inline-block;
+margin: 10px 8%;
+padding-bottom: 100px;
+}
+.wrapper .comming-soon-img {
+	width:47%;
+	margin:15px;
+	display: block;
+	float: left;
+	border: 1px solid #aaa;
+	
+}
+section.comming-soon:after{
+	clear: both;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+/*visit site starts*/
+content section .learn-from{
+	margin:0;
+	padding:0;
+	width: 100%;
+	clear: all;
+}
+content section .learn-from .wrapper{
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+
+.wrapper .learn-from-img {
+	background-image: url(../img/learn-from.jpg);
+	width: 100%;
+	margin:0;
+	display: block;
+	height: 365px;
+}
+
+.learn-from-img .read-more{
+	padding-top: 50px;
+	text-align: center;
+	display: block;
+	margin: 0;
+	height: 60px;
+	width: 100%;
+	color:#fff;
+}
+.learn-from-img .read-more .heading-text{
+	font-size: 2.5em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.learn-from-img .read-more .brief-text{
+	font-weight: normal;
+}
+.learn-from-img .read-more .to-read-more{
+	font-weight: normal;
+	text-transform: uppercase;
+}
+/*visit site ends*/
+
+
